@@ -1,5 +1,6 @@
-title,genre,director,release_year,boxoffice
-one,comedy,tom,2011,100
-two,horrer,dany,2019,460
-three,rom com,tom,2014,258
-four,horrer,jony,2015,789
+title,genre,director,release_year
+one,comedy,tom,2011
+two,horrer,dany,2019
+three,rom com,tom,2014
+four,horrer,jony,2015
+five,dance,belly,2140
