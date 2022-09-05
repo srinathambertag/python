@@ -11,8 +11,8 @@ g.pull('origin', 'main')
 print('Code pulled')
 
 # Dump Data
-engine = create_engine('mysql://Admin:Admin@123@54.158.102.120/films')
-df = pd.read_csv("./data.csv", sep=',', quotechar='\'', encoding='utf8')
+engine = create_engine('mysql://admin:Admin@123@52.90.32.47/films')
+df = pd.read_csv("/home/srinath/PycharmProjects/Mysql Dump/python/data.csv", sep=',', quotechar='\'', encoding='utf8')
 df.to_sql('movies', con=engine, index=False, if_exists='replace')
 print('Data Dump Completed')
 
