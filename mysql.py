@@ -4,7 +4,7 @@ from sqlalchemy import create_engine, types
 
 
 # Pull Code
-repo = git.Repo('./')
+#repo = git.Repo('./')
 # git_dir = "https://github.com/srinathrajath/python.git"
 # g = git.cmd.Git(git_dir)
 # g.pull('origin', 'main')
@@ -17,7 +17,7 @@ df.to_sql('movies', con=engine, index=False, if_exists='replace')
 print('Data Dump Completed')
 
 # Push Code
-repo.index.add("data.csv")
-repo.index.commit('Initial commit.')
-print('code commited')
-print(repo.remotes.origin.push())
+#repo.index.add("data.csv")
+#repo.index.commit('Initial commit.')
+#print('code commited')
+#print(repo.remotes.origin.push())
