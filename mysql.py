@@ -4,11 +4,11 @@ from sqlalchemy import create_engine, types
 
 
 # Pull Code
-repo = git.Repo('../python')
-git_dir = "https://github.com/srinathrajath/python.git"
-g = git.cmd.Git(git_dir)
-g.pull('origin', 'main')
-print('Code pulled')
+#repo = git.Repo('../python')
+#git_dir = "https://github.com/srinathrajath/python.git"
+#g = git.cmd.Git(git_dir)
+#g.pull('origin', 'main')
+#print('Code pulled')
 
 # Dump Data
 engine = create_engine('mysql://root:Admin=123@54.174.160.143/movies')
